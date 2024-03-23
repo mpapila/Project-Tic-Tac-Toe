@@ -1,0 +1,18 @@
+body {
+    /* background-color: rgb(17, 24, 39); */
+}
+
+.board-container {
+    width: 100vw;
+    height: 100wh;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    justify-content: center;
+}
+.cell {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
